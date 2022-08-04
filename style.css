@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.container{
+    padding : 0;
+    margin : 0;
+    width : 100%;
+}
+
+.hero--section{
+    display : flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero--section .hero--section-left .logo--sign-up-login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero--section .hero--section-left .logo--sign-up-login .logo--sign-up-login-buttons-container {
+    display : flex;
+    gap : 16px; 
+    align-items: center;
+    justify-content: center;
+}
+
+.hero--section .hero--section-left .logo--sign-up-login .logo--sign-up-login-buttons-container a{
+    text-decoration: none;
+    color : black;
+    font-weight: 700;
+}
+
+.hero--section .hero--section-left .logo--sign-up-login .logo--sign-up-login-buttons-container .sign--up-btn{
+    padding : 10px 20px;
+    background-color: black;
+    color: white;
+}
+
+.hero--section .hero--section-left .logo--sign-up-login img{
+    width : 160px;
+    height : auto;
+
+}
+
+.hero--section .hero--section-left .hero--section-left-semi-container{
+    width : 80%;
+    margin : auto;
+    gap : 32px;
+    display : flex;
+    flex-direction: column;
+}
+
+.hero--section .hero--section-left .hero--section-left-semi-container .hero--section-heading{
+    display : flex;
+    flex-direction: column;
+    gap : 8px;
+    margin : 48px 0 0 0;
+}
+
+.hero--section .hero--section-left .hero--section-left-semi-container .hero--section-search-container{
+    background: white;
+    display : flex;
+    width : 100%;
+    justify-content: space-between;
+    border : gray 1px solid;
+    padding : 0 0 0 10px;
+}
+
+.hero--section .hero--section-left .hero--section-left-semi-container .hero--section-search-container button{
+    border : none;
+    height: 48px;
+    background: transparent;
+    font-size: 16px;
+    
+}
+
+.hero--section .hero--section-left .hero--section-left-semi-container .hero--section-search-container input{
+    border : none;
+    width : 65%;
+    padding : 0  10px;
+    font-size: 16px;
+}
+
+.hero--section .hero--section-left .hero--section-left-semi-container .hero--section-search-container .searchbar--buttons{
+    display : flex;
+    gap : 32px;
+}
+
+.hero--section .hero--section-left .hero--section-left-semi-container .hero--section-search-container .searchbar--buttons .locate--me-btn{
+    font-size: 14px;
+}
+
+.hero--section .hero--section-left .hero--section-left-semi-container .hero--section-search-container .searchbar--buttons .find--food-btn{
+    background: #fc8019;
+    padding : 0 10px;
+    font-weight: 600;
+    color : white;
+}
+.hero--section .hero--section-left .hero--section-left-semi-container .hero--section-heading h1{
+    font-size: 48px;
+}
+
+.hero--section .hero--section-left .hero--section-left-semi-container .hero--section-heading p{
+    font-size: 20px;
+    color : gray;
+}
+
+.hero--section .hero--section-right img{
+    width : 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.hero--section .hero--section-left {
+   flex : 1.5;
+     
+}
+
+.hero--section .hero--section-right{
+    flex : 1;
+}
+
+.hero--section .hero--section-left .hero--section-left-semi-container .hero--section-popular-cities {
+    display : flex;
+    flex-direction: column;
+    gap : 16px;
+}
+
+.hero--section .hero--section-left .hero--section-left-semi-container .hero--section-popular-cities h5{
+    color : #a9abb2;
+    font-size: 16px;
+}
+
+.hero--section .hero--section-left .hero--section-left-semi-container .hero--section-popular-cities span{
+    font-size: 16px;
+    color : #686b78;
+    
+}
+
+.hero--section .hero--section-left .hero--section-left-semi-container .hero--section-popular-cities .popular--cities-span{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero--section .hero--section-left .hero--section-left-semi-container .hero--section-popular-cities .popular--cities-span span:nth-child(1){
+    color : #686b78;
+}
